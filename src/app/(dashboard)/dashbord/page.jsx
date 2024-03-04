@@ -38,7 +38,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      <div className="relative w-[350px] xl:w-[350px] mt-7 lg:mt-0 2xl:w-[359px]">
+      <div className="relative w-[350px] xl:w-[350px] mt-7 xl:mt-0 2xl:w-[359px]">
         <div className='shape2 absolute -top-[29.5px] right-0 ms-auto border-t-[30px] rounded-tr-[40px] w-[33%]  border-[#fff] border-opacity-[14%]  border-r-transparent border-l-transparent border-b-transparent '>
 
         </div>
