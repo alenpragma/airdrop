@@ -5,3 +5,31 @@
 body {
   background: #1b1b1b;
 }
+
+.shape:before {
+  border-bottom: 30px solid #fff;
+  opacity: 14%;
+  border-left: px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  right: -50px;
+  position: absolute;
+  top: -29.8px;
+  width: 0;
+  overflow: hidden;
+}
+
+.shape2:before {
+  border-bottom: 30px solid #fff;
+  opacity: 14%;
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
+  content: "";
+  height: 0;
+  left: -49.8px;
+  position: absolute;
+  top: -29.5px;
+  width: 0;
+  overflow: hidden;
+}
