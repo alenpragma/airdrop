@@ -17,7 +17,6 @@ body {
   position: absolute;
   top: -29.8px;
   width: 0;
-  overflow: hidden;
 }
 
 .shape2:before {
