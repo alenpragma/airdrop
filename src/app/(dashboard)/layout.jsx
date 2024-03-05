@@ -19,13 +19,13 @@ const DashboardLayout = ({ children }) => {
   //   closeSide();
   // }, []);
   return (
-    <div className=' flex bg-[#1B1B1B]'>
+    <div className=' flex  bg-[#1B1B1B]'>
 
-      <div className="lg:hidden fixed shadow-[0_0px_30px_-15px] shadow-white  flex items-center justify-center   bg-opacity-50 lg:hideen">
+      <div className="lg:hidden bg-black fixed shadow-[0_0px_30px_-15px] shadow-white  flex items-center justify-center">
         <Sidebar setShow={setShow} show={show} />
       </div>
 
-      <div className=" hidden lg:block">
+      <div className=" hidden  bg-black lg:block">
         <Sidebar />
       </div>
 
@@ -33,7 +33,7 @@ const DashboardLayout = ({ children }) => {
         <div>
           <Header setShow={setShow} show={show} />
         </div>
-        <div className="text-white  px-3     min-h-screen min-w-full">
+        <div className="max-w-[1440px] text-white  px-12 min-h-screen min-w-full">
           {children}
         </div>
       </div>

@@ -12,9 +12,9 @@ import AvailableTask from './AvailableTask';
 const Dashboard = () => {
   return (
     <>
-      <div className="mt-[50px] flex flex-col xl:flex-row items-center gap-3 xl:gap-6">
+      <div className="max-w-[1098px] mt-[50px] flex flex-col xl:flex-row items-center gap-[20px]">
 
-        <div className="relative w-[350px] md:w-[650px] 2xl:w-[715px]">
+        <div className="relative w-[350px] md:w-[714px] 2xl:w-[714px]">
           <div className='shape absolute -top-[29.5px] border-t-[30px] rounded-tl-[40px] w-[33%]  border-[#fff] border-opacity-[14%]  border-r-transparent border-l-transparent border-b-transparent '>
           </div>
 

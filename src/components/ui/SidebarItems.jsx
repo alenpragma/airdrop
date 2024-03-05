@@ -11,7 +11,7 @@ const SidebarItems = ({ setShow, show }) => {
   const formattedPath = pathname.slice(1).replace(/-/g, " ");
   return (
     <>
-      <div className='flex flex-col   p-1 gap-4'>
+      <div className='flex flex-col p-1 gap-4'>
         {/* Deshbord */}
         <Link href={"/dashbord"} onClick={() => setShow(!show)}>
           <div
