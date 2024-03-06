@@ -1,9 +1,11 @@
+import TasksPage from '@/components/pages/Tasks/Tasks';
 import React from 'react';
 
 const Tasks = () => {
+
   return (
     <div>
-      <h2>Task</h2>
+      <TasksPage />
     </div>
   );
 };

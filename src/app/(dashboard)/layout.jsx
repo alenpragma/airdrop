@@ -33,7 +33,7 @@ const DashboardLayout = ({ children }) => {
         <div>
           <Header setShow={setShow} show={show} />
         </div>
-        <div className="max-w-[1440px] text-white  px-12 min-h-screen min-w-full">
+        <div className="max-w-[1440px] text-white px-2 xl:px-12 min-h-screen min-w-full">
           {children}
         </div>
       </div>
